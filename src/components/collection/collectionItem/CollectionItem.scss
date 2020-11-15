@@ -1,0 +1,41 @@
+.container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  align-items: center;
+
+  .bg {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+    background-position: center;
+    text-align: center;
+  }
+  .add {
+    top: -6rem;
+    position: relative;
+  }
+
+  .detail-container {
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    background: rgb(255, 181, 107);
+
+    .name {
+      width: 90%;
+      padding: 5px;
+      color: rgb(63, 38, 1);
+    }
+
+    .price {
+      width: 10%;
+      padding: 5px;
+      color: rgb(63, 38, 1);
+    }
+  }
+}

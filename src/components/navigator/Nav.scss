@@ -1,0 +1,29 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5rem;
+  align-items: center;
+  .links {
+    margin: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+  }
+  .link-container {
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+
+    .texts {
+      margin: 0.3rem;
+    }
+  }
+  .NavLink {
+    text-decoration: none;
+    color: black;
+  }
+  .active {
+    color: red;
+  }
+}
